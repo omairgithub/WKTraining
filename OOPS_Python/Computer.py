@@ -4,10 +4,10 @@ class Computer:
         self.cpu = cpu
         self.ram = ram
 
-    def confug(self):
+    def config(self):
         print(self.cpu, self.ram)
 
-    def compair(self,other):
+    def compare(self,other):
         if self.ram == other.ram:
             return True
         else:
@@ -16,10 +16,10 @@ class Computer:
 
 comp1 = Computer("i3", 13)
 comp2 = Computer("i5", 13)
-comp1.confug()
+comp1.config()
 
 
-if comp1.compair(comp2):
+if comp1.compare(comp2):
     print("They are same")
 else:
     print("They are not same")

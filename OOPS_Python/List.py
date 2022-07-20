@@ -5,8 +5,8 @@ print(len(mylist))  # returns length of list
 print(mylist[1])  # returns item at specified index
 print(mylist[-1], mylist[-2])  # negative indexing returns item from backside of list
 print(mylist[2:5])  # returns item from that range start from 2 but 5th element will not be included
-print(mylist[:5])  # returns item from beginning to the less than range provided not include 4
-print(mylist[2:])  # returns item from 2nd index to end of list
+print(mylist[:5])  # returns items from beginning to the less than range provided not include 4
+print(mylist[2:])  # returns items from 2nd index to end of list
 
 # you can change item from given index
 
@@ -39,12 +39,12 @@ mylist.extend(mytuple)
 print(mylist)
 print(mylist2)
 
-# remove specified item
+# remove function removes specified item
 
 mylist.remove("PHP")
 print(mylist)
 
-# remove specified index
+# pop function removes specified index item from the list
 # if not specified index pop removes last item
 
 mylist.pop(4)
