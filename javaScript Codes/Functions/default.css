@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(90, 96, 178);
+  }
+  
+  div {
+    position: relative;
+    padding: 15rem;
+    text-align: center;
+  }
